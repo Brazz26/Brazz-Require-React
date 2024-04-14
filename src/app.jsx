@@ -1,7 +1,7 @@
 import { Outlet } from 'react-router-dom';
 import { ApolloProvider } from '@apollo/client';
 
-import Navbar from './components/Navigation';
+import Navbar from './components/Navbar';
 import 'semantic-ui-css/semantic.min.css'; // Added Semantic UI CSS
 
 function App() {
