@@ -3,7 +3,7 @@ import { Container, Header } from "semantic-ui-react";
 // import Resume from './src/images/Resume.png';
 
 
-const resumePage = () => {
+const Resume = () => {
     return jsxDEV(Container, { children:
         <Container>
             <Header as="h1" style={{ fontSize: '100px', marginBottom: '30px' }}>
@@ -24,7 +24,4 @@ const resumePage = () => {
     )
 }
 
-
-resumePage()
-
-export default Resume
+export default Resume;

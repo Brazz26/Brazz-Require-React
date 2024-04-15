@@ -1,7 +1,7 @@
 import "semantic-ui-css/semantic.min.css"; // Import css
 import { Container, Header } from "semantic-ui-react";
 
-const contactMe = () => {
+const ContactInfo = () => {
     return (
         <div>
             <Container
