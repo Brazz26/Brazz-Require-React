@@ -1,8 +1,7 @@
-import { MagnifyingGlass } from 'react-loader-spinner'
-import "semantic-ui-css/semantic.min.css"; // Import css library
+// import { MagnifyingGlass } from 'react-loader-spinner'
 import { Container, Header } from 'semantic-ui-react';
-// import { Helmet } from 'react-Helmet';
-// import "../assets/css/home.css"
+
+import "semantic-ui-css/semantic.min.css";
 
 function Home() {
   const { loading, error } = useQuery(QUERY_USERS);

@@ -1,26 +1,30 @@
+import { jsxDEV } from "react/jsx-dev-runtime";
 import { Container, Header } from "semantic-ui-react";
-import Resume from '../../public/images/Resume.jpg';
+// import Resume from './src/images/Resume.png';
 
 
 const resumePage = () => {
-    return (
+    return jsxDEV(Container, { children:
         <Container>
             <Header as="h1" style={{ fontSize: '100px', marginBottom: '30px' }}>
-                My Resume
+                My Skillset
             </Header>
-            <div
+            {/* <div
                 style={{
                     Image: `url(${Resume})`,
                     minHeight: "100vh",
                     display: "flex",
                     justifyContent: "center",
                     alignItems: "center",
-                }}>
-                    
-                </div>
-        </Container>
+                }}> */}
+
+                {/* </div> */}
+        </Container>}
 
     )
 }
+
+
+resumePage()
 
 export default Resume
