@@ -39,7 +39,7 @@ function Home() {
 
     // <div
     //   style={{
-    //     backgroundImage: `url(${homebackground})`,
+    //     backgroundImage: `url(${?}})`,
     //     backgroundSize: 'cover',
     //     backgroundPosition: 'center',
     //     minHeight: '100vh',
