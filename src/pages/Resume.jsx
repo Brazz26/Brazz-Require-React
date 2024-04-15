@@ -1,25 +1,25 @@
-import { jsxDEV } from "react/jsx-dev-runtime";
+// import { jsxDEV } from "react/jsx-dev-runtime";
 import { Container, Header } from "semantic-ui-react";
-// import Resume from './src/images/Resume.png';
+import skills from '../images/skills.jpg';
 
 
 const Resume = () => {
-    return jsxDEV(Container, { children:
+    return (
         <Container>
             <Header as="h1" style={{ fontSize: '100px', marginBottom: '30px' }}>
                 My Skillset
             </Header>
-            {/* <div
+            <div
                 style={{
-                    Image: `url(${Resume})`,
+                    Image: `url(${skills})`,
                     minHeight: "100vh",
                     display: "flex",
                     justifyContent: "center",
                     alignItems: "center",
-                }}> */}
+                }}>
 
-                {/* </div> */}
-        </Container>}
+                </div>
+        </Container>
 
     )
 }

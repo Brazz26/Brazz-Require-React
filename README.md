@@ -9,3 +9,5 @@ and past projects.
 
 -The about me section contains a small informational bio about myself as 
 a person and motivation for this project.
+
+GitHub Repo
